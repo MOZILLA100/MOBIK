@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CE - Professional Civil Engineer</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./media/image/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="grid-background"></div>
+    <div class="circle-accent"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <img src="/media/image/icon.png" alt="" class="logo">
+
+         
+        <div class="theme-list">
+
+            <button onclick="toggleTheme()" id="themeToggle">
+                <i class="bi bi-moon"></i>
+                <i class="bi bi-sun"></i>
+            </button>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#home" onclick="toggleMenu()">Home</a>
+                <a href="#about" onclick="toggleMenu()">About</a>
+                <a href="#portfolio" onclick="toggleMenu()">Portfolio</a>
+                <a href="#experience" onclick="toggleMenu()">Experience</a>
+                <a href="#skills" onclick="toggleMenu()">Skills</a>
+                <a href="#contact" onclick="toggleMenu()">Contact</a>
+
+                  <div class="nav-link">
+                        <a href="https://wa.me/2349156121850" target="_blank" class="footer-social-link" id="whatsapp">
+                            <i class="fa-brands fa-square-whatsapp" style="padding: 2px; font-size: 2rem;"></i> 
+                        </a>
+
+                        <a href="https://github.com/KenechiEze" target="_blank" class="footer-social-link">
+                            <i class="fa-brands fa-github" style="padding: 2px; font-size: 2rem;"></i>
+                        </a>
+
+                        <a href="https://instagram.com/Kenechi888" target="_blank" class="footer-social-link" id="ins">
+                            <i class="fa-brands fa-square-instagram" style="padding: 2px; font-size: 2rem;"></i> 
+                        </a>
+
+                        <a href="https://facebook.com/Kcee Eze from Enugu lives in Nsukka" target="_blank" class="footer-social-link">
+                            <i class="fa-brands fa-square-facebook" style="padding: 2px; font-size: 2rem;"></i>
+                        </a>
+
+                        <a href="https://twitter.com/KenechiEze101" target="_blank" class="footer-social-link">
+                            <i class="fa-brands fa-twitter" style="padding: 2px; font-size: 2rem;"></i>
+                        </a>
+
+                        <a href="https://linkedin.com/Kenechi Eze student at Nanocodes programming limited Enugu state,Nigeria" target="_blank" class="footer-social-link">
+                            <i class="fa-brands fa-linkedin" style="padding: 2px; font-size: 2rem;"></i>
+                        </a>
+                    </div>
+            </div>
+
+            
+
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+    
+        </div>
+
+        
+
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="badge">Professional Civil Engineer</div>
+        <h1>building the<br><span class="highlight">Future</span>,<br>One Structure at a Time</h1>
+        <p>Licensed Professional Engineer specializing in structural design, infrastructure development, and sustainable construction.</p>
+        
+        <div class="cta-buttons">
+            <a href="#portfolio" class="btn btn-primary">View Projects →</a>
+            <a href="#contact" class="btn btn-secondary">⬇ Download Resume</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="profile-container">
+            <div class="profile-frame">
+                <div class="frame-corners"></div>
+                <img src="./media/image/ppic.jpg" alt="Professional Engineer" class="profile-image">
+            </div>
+        </div>
+
+        <div class="section-header">ABOUT ME</div>
+        <h2>Transforming Visions<br>Into <span style="color: var(--blue-light);">Structural Reality</span></h2>
+        
+        <p style="color: var(--text-secondary); text-align: center; max-width: 700px; margin: 2rem auto;">
+            With over 15 years of experience in civil engineering, I specialize in designing and managing complex infrastructure projects that stand the test of time. My expertise spans across residential, commercial, and public sector developments.
+        </p>
+
+        <p style="color: var(--text-secondary); text-align: center; max-width: 700px; margin: 2rem auto;">
+            I'm committed to sustainable engineering practices, innovative design solutions, and delivering projects that exceed client expectations while adhering to the highest safety standards.
+        </p>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">💼</div>
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">👥</div>
+                <div class="stat-number">30+</div>
+                <div class="stat-label">Happy Clients</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">🏆</div>
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">📈</div>
+                <div class="stat-number">$200M+</div>
+                <div class="stat-label">Project Value</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="section-header">PORTFOLIO</div>
+        <h2>Featured Projects</h2>
+        <p class="section-subtitle">A showcase of innovative engineering solutions across various sectors</p>
+
+        <div class="project-filters">
+            <button class="filter-btn active" onclick="filterProjects('all')">All Projects</button>
+            <button class="filter-btn" onclick="filterProjects('infrastructure')">Infrastructure</button>
+            <button class="filter-btn" onclick="filterProjects('commercial')">Commercial</button>
+            <button class="filter-btn" onclick="filterProjects('residential')">Residential</button>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card" data-category="infrastructure">
+                <div class="project-image-wrapper">
+                    <img src="/media/image/photo-con-a.jpg" alt="Skyline Bridge" class="project-image">
+                    <div class="project-category">Infrastructure</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Skyline Bridge</h3>
+                        <div class="project-arrow">→</div>
+                    </div>
+                    <p class="project-description">Design and construction supervision of a 1.2km cable-stayed bridge connecting two major districts.</p>
+                    <div class="project-footer">
+                        <span>2023</span>
+                        <span class="project-value">$45M</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-category="commercial">
+                <div class="project-image-wrapper">
+                    <img src="/media/image/photo-con-b.jpg" alt="Metro Tower Complex" class="project-image">
+                    <div class="project-category">Commercial</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Metro Tower Complex</h3>
+                        <div class="project-arrow">→</div>
+                    </div>
+                    <p class="project-description">Structural engineering for a 40-story mixed-use development in the city center.</p>
+                    <div class="project-footer">
+                        <span>2023</span>
+                        <span class="project-value">$120M</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" data-category="infrastructure">
+                <div class="project-image-wrapper">
+                    <img src="/media/image/photo-con-c.jpg" alt="Riverside Highway" class="project-image">
+                    <div class="project-category">Infrastructure</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Riverside Highway</h3>
+                        <div class="project-arrow">→</div>
+                    </div>
+                    <p class="project-description">15km highway expansion project with advanced drainage and traffic management systems.</p>
+                    <div class="project-footer">
+                        <span>2022</span>
+                        <span class="project-value">$80M</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card" data-category="residential">
+                <div class="project-image-wrapper">
+                    <img src="/media/image/photo-con-d.jpg" alt="Green Valley Residences" class="project-image">
+                    <div class="project-category">Residential</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Green Valley Residences</h3>
+                        <div class="project-arrow">→</div>
+                    </div>
+                    <p class="project-description">Sustainable housing development featuring 200 eco-friendly units with modern amenities.</p>
+                    <div class="project-footer">
+                        <span>2022</span>
+                        <span class="project-value">$35M</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card" data-category="infrastructure">
+                <div class="project-image-wrapper">
+                    <img src="/media/image/photo-con-e.jpg" alt="City Water Treatment Plant" class="project-image">
+                    <div class="project-category">Infrastructure</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">City Water Treatment Plant</h3>
+                        <div class="project-arrow">→</div>
+                    </div>
+                    <p class="project-description">State-of-the-art water treatment facility serving 500,000 residents.</p>
+                    <div class="project-footer">
+                        <span>2021</span>
+                        <span class="project-value">$65M</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card" data-category="commercial">
+                <div class="project-image-wrapper">
+                    <img src="/media/image/photo-con-f.jpg" alt="Innovation Tech Campus" class="project-image">
+                    <div class="project-category">Commercial</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">Innovation Tech Campus</h3>
+                        <div class="project-arrow">→</div>
+                    </div>
+                    <p class="project-description">Modern office campus with sustainable design and advanced structural systems.</p>
+                    <div class="project-footer">
+                        <span>2021</span>
+                        <span class="project-value">$90M</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="section-header">BACKGROUND</div>
+        <h2>Experience & Education</h2>
+
+        <div style="display: flex; align-items: center; gap: 1rem; margin: 3rem 0 2rem;">
+            <div style="width: 50px; height: 50px; background: rgba(59, 109, 212, 0.2); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">🎓</div>
+            <h3 style="font-size: 1.5rem;">Education</h3>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Master of Science in Civil Engineering</h3>
+                <p class="timeline-company">University of Edinburgh</p>
+                <p class="timeline-date">2004 - 2008</p>
+                <p class="timeline-description">Graduated Summa Cum Laude, GPA: 3.95/4.0</p>
+                <p>Massachusetts Institute of Technology</p>
+                <p class="timeline-date">2008 - 2010</p>
+                <p class="timeline-description">Specialization in Structural Engineering & Design</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Bachelor of Science in Civil Engineering</h3>
+                <p class="timeline-company">University of California, Berkeley</p>
+                <p class="timeline-date">2000 - 2004</p>
+                <p class="timeline-description">Graduated Magna Cum Laude, GPA: 3.85/4.0</p>
+            </div>
+            
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 1rem; margin: 3rem 0 2rem;">
+            <div style="width: 50px; height: 50px; background: rgba(59, 109, 212, 0.2); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">🏆</div>
+            <h3 style="font-size: 1.5rem;">Certifications</h3>
+        </div>
+
+        <div class="cert-list">
+            <div class="cert-item">
+                <div class="cert-icon">✓</div>
+                <div>Professional Engineer (PE) License - State of California</div>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon">✓</div>
+                <div>LEED Accredited Professional</div>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon">✓</div>
+                <div>Project Management Professional (PMP)</div>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon">✓</div>
+                <div>Certified Construction Manager (CCM)</div>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon">✓</div>
+                <div>AutoCAD Certified Professional</div>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon">✓</div>
+                <div>Structural Engineering Certification Institute (SECI)</div>
+            </div>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 1rem; margin: 3rem 0 2rem;">
+            <div style="width: 50px; height: 50px; background: rgba(59, 109, 212, 0.2); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">💼</div>
+            <h3 style="font-size: 1.5rem;">Work Experience</h3>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Senior Structural Engineer</h3>
+                <p class="timeline-company">Global Infrastructure Solutions</p>
+                <p class="timeline-date">2018 - Present</p>
+                <p class="timeline-description">Leading structural design for major infrastructure projects. Managing teams of 15+ engineers and overseeing $500M+ in project budgets.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Project Engineer</h3>
+                <p class="timeline-company">Metropolitan Engineering Corp</p>
+                <p class="timeline-date">2014 - 2018</p>
+                <p class="timeline-description">Designed and supervised construction of commercial buildings and residential complexes. Coordinated with architects, contractors, and stakeholders.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Junior Engineer</h3>
+                <p class="timeline-company">BuildTech Consultants</p>
+                <p class="timeline-date">2010 - 2014</p>
+                <p class="timeline-description">Assisted in structural analysis, design calculations, and preparation of construction drawings using AutoCAD and SAP2000.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills & Expertise</h2>
+
+        <div class="skills-categories">
+            <div class="skills-category">
+                <h3>Technical Skills</h3>
+                <div class="skills-tags">
+                    <div class="skill-tag">Structural Analysis & Design</div>
+                    <div class="skill-tag">AutoCAD & Revit</div>
+                    <div class="skill-tag">SAP2000 & ETABS</div>
+                    <div class="skill-tag">Finite Element Analysis</div>
+                    <div class="skill-tag">BIM (Building Information Modeling)</div>
+                    <div class="skill-tag">Construction Management</div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Engineering Expertise</h3>
+                <div class="skills-tags">
+                    <div class="skill-tag">Bridge Design</div>
+                    <div class="skill-tag">Foundation Engineering</div>
+                    <div class="skill-tag">Seismic Design</div>
+                    <div class="skill-tag">Highway & Transportation</div>
+                    <div class="skill-tag">Sustainable Design</div>
+                    <div class="skill-tag">Risk Assessment</div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Soft Skills</h3>
+                <div class="skills-tags">
+                    <div class="skill-tag">Project Leadership</div>
+                    <div class="skill-tag">Client Communication</div>
+                    <div class="skill-tag">Team Management</div>
+                    <div class="skill-tag">Problem Solving</div>
+                    <div class="skill-tag">Budget Planning</div>
+                    <div class="skill-tag">Quality Control</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-header">GET IN TOUCH</div>
+        <h2>Let's Work Together</h2>
+        <p class="section-subtitle">Have a project in mind? I'd love to hear about it. Send me a message and let's discuss how I can help.</p>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-envelope" style="color: white;"></i>
+                </div>
+                <div>
+                    <h3>Email</h3>
+                    <p style="color: var(--text-secondary);">mobik@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-phone" style="color: white;"></i>
+                </div>
+                <div>
+                    <h3>Phone</h3>
+                    <p style="color: var(--text-secondary);">+44 (555) 123-4567</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot" style="color: white;"></i>
+                </div>
+                <div>
+                    <h3>Location</h3>
+                    <p style="color: var(--text-secondary);">Scottland<br>United Kingdom</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-brands fa-linkedin-in" style="color: white;"></i>
+                </div>
+                <div>
+                    <h3>LinkedIn</h3>
+                    <p style="color: var(--text-secondary);">linkedin.com/in/mobik</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Your Name *</label>
+                    <input type="text" id="name" placeholder="Kizito" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" placeholder="kizito@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="+44 (555) 123-4567">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" placeholder="Project Inquiry" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" placeholder="Tell me about your project..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message ✈️</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+                
+        <div class="footer-link">
+            <a href="https://wa.me/2349156121850" target="_blank" class="footer-social-link">
+                <i class="fa-brands fa-square-whatsapp" style="padding: 2px; font-size: 2rem;"></i> 
+            </a>
+
+            <a href="https://github.com/KenechiEze" target="_blank" class="footer-social-link">
+                <i class="fa-brands fa-github" style="padding: 2px; font-size: 2rem;"></i>
+            </a>
+
+            <a href="https://instagram.com/Kenechi888" target="_blank" class="footer-social-link">
+                <i class="fa-brands fa-square-instagram" style="padding: 2px; font-size: 2rem;"></i> 
+            </a>
+
+            <a href="https://facebook.com/Kcee Eze from Enugu lives in Nsukka" target="_blank" class="footer-social-link">
+                <i class="fa-brands fa-square-facebook" style="padding: 2px; font-size: 2rem;"></i>
+            </a>
+
+            <a href="https://twitter.com/KenechiEze101" target="_blank" class="footer-social-link">
+                <i class="fa-brands fa-twitter" style="padding: 2px; font-size: 2rem;"></i>
+            </a>
+
+            <a href="https://linkedin.com/Kenechi Eze student at Nanocodes programming limited Enugu state,Nigeria" target="_blank" class="footer-social-link">
+                <i class="fa-brands fa-linkedin" style="padding: 2px; font-size: 2rem; "></i>
+            </a>
+        </div>
+
+        <div class="footer-content">
+            <p style="color: var(--text-secondary); margin: 1rem 0;">© 2025 Civil Engineer.</p>
+            <p style="color: var(--text-secondary); margin-top: 1.4rem;">Professional Civil Engineer • All rights reserved</p>
+        </div>
+
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
